@@ -19,7 +19,7 @@
 
 ### Lỗi gặp phải
 
-Trong quá trình thực hành, tôi đã cố tình sửa câu lệnh assert từ:
+Trong quá trình thực hành, em đã cố tình sửa câu lệnh assert từ:
 
 `assert actual_title == "The Internet"`
 
@@ -35,7 +35,7 @@ Pytest xác định kết quả thực tế là `The Internet`, trong khi kết 
 
 ### Cách khắc phục
 
-Tôi kiểm tra lại kết quả thực tế của trang web và nhận thấy tiêu đề chính xác là `The Internet`. Sau đó, tôi sửa câu lệnh assert trở lại:
+Em kiểm tra lại kết quả thực tế của trang web và nhận thấy tiêu đề chính xác là `The Internet`. Sau đó, em sửa câu lệnh assert trở lại:
 
 `assert actual_title == "The Internet"`
 
